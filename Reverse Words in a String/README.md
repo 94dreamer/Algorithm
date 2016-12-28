@@ -27,4 +27,16 @@ var reverseWords = function(str) {
 ```
 
 通过了提交，但是总感觉不是很好的办法。
+后面有了这种办法，关键是用filter方法代替自定义的循环排除，fliter通过返回Boolean来决定是否保留改元素。
+
+```
+/**
+ * @param {string} str
+ * @returns {string}
+ */
+var reverseWords = function(str) {
+    return str.split(" ").reverse().filter(function(val){return val}).join(" ")
+};
+```
+
 
