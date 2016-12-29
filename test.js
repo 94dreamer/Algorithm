@@ -15,19 +15,19 @@
  coins = [2], amount = 3
  return -1.
  */
-var coinChange = function (coins, amount) {
-  coins.sort(function (a, b) {
-    return b - a;//从大到小排序硬币
+var twoSum = function(nums, target) {
+  var arr=[];
+  nums.forEach(function(e,i){
+    nums.slice(0,i).concat(nums.slice(i+1)).forEach(function(e2){
+      if(e+e2===target){
+        arr=[i,nums.indexOf(e2)];
+        return false;
+      }
+    });
+    if(arr.length){
+      return false;
+    }
   });
-  var count = 0;
-
-  for (var i = 0; i < coins.length; i++) {
-    var num = Math.floor(amount / coins[i]);
-    count+=num;
-    amount=amount%coins[i];
-  }
-  amount !== 0 && (count = -1);
-  return count
+  return arr;
 };
-
-console.log(coinChange([2, 3, 5], 16));
+console.log(twoSum([2, 3, 5],8));
