@@ -1,9 +1,14 @@
 ## Algorithm
 
-前端攻城狮算法进阶之路
+#### 前端攻城狮算法进阶之路
+>为什么我作为一个前端工程师要学数据结构和算法？
 
+   Web2.0时代，用户体验要求越来越高，页面交互愈发复杂，Web承载应用种类变对，这些无一不对前端code提出了更高的要求，我们必须开阔视野，知道什么是我们的核心竞争力，我们首先是程序员，然后再是前端程序员，未来的Web前端，绝对不是靠几个选择器加一些简单的DOM操作能够应付的。
+	
+   越来越复杂的产品、需求场景和基础库，这就需要我们拥有坚实的数据结构和算法基础才能驾驭，这也一定是一线前端程序员必需的一个基本要求。
 
-- [Sourcetree, Git GUI](https://www.sourcetreeapp.com/)
-- [编程教学视频网站(英文)](https://www.codeschool.com/)
-- [HTTP Developer’s Handbook(英文)](http://www.amazon.com/HTTP-Developers-Handbook-Chris-Shiflett/dp/0672324547)
-- [Front-end Handbook(英文)](https://www.gitbook.com/book/frontendmasters/front-end-handbook/details)
+>推荐书籍：
+
+- [数据结构与算法 JavaScript描述]
+- [算法]
+- [算法导论]
