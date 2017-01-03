@@ -45,15 +45,24 @@ function clear(){
 
 ### 3. 栈的使用
 
+1. 回文 — 给定字符串判断是否是回文
 
+```
+function isPalindrome(word){
+	var s=new Stack();
+	for(var i=0;i<word.lengh;i++){
+		s.push(word[i]);
+	}
+	var rword="";
+	do(s.length()>0)while{
+		rword+=s.pop();
+	}
+	if(word===rword){
+		return ture;
+	}else{
+		return false;
+	}
+}
+```
 
-
-
-
-
-
-
-
-
-
-
+2. 递归演示
