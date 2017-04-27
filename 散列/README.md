@@ -10,6 +10,7 @@
 function HashTable(){
 	this.table=new Array(137);
 	this.simpleHash=simpleHash;
-	this.
+	this.showDistro=showDistro;
+	this.put=put;
 }
 ```
