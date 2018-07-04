@@ -2,7 +2,7 @@
 
 CArray.js
 
-### 2. 冒牌排序
+### 2. 冒泡排序
 
 bubbleSort.js
 
